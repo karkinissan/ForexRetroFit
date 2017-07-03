@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="top"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="?android:textAppearanceSmall"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            tools:text="AUD"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="top"
+            android:layout_height="wrap_content"
+            android:text="Buying Rate"
+            android:textAppearance="?android:textAppearanceSmall"/>
+        <TextView
+            android:id="@+id/buying_rate"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            tools:text="27.8"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:layout_height="wrap_content"
+        android:text="Selling Rate"
+        android:textAppearance="?android:textAppearanceSmall"/>
+    <TextView
+        android:id="@+id/selling_rate"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        tools:text="77.6"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
+
+</LinearLayout>
